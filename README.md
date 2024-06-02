@@ -1,2 +1,5 @@
-# web-330
-this repository is for web-330 assignments
+# WEB 330 Enterprise JavaScript II
+
+## Contributor
+- Richard Krasso
+- Hayat Soma
