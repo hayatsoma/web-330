@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./java.js"></script>
+</head>
+<body>
+  <h1>Simple form</h1>
+  <div class="container">
+    <form>
+      <div class="formtype div1">
+        <label for="characterName"> Character Name</label>
+        <input input="text" id="characterName" name="characterName" required>
+      </div><br>
+
+      <div class="formtype">
+
+        <label for="characterGender">Gender</label>
+        <select id="characterGender" name="characterGender" required>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div><br>
+
+      <div class="formtype">
+        <label for="characterclass"> Character Class</label>
+        <select id="characterclass" name="characterclass" required>
+          <option value="">Select Class</option>
+          <option value="warrior">warrior</option>
+          <option value="mage">mage</option>
+          <option value="rogue">rogue</option>
+        </select>
+      </div><br>
+
+      <a href="#"><button type="button" onclick="createcharacter()">Create Character</button></a>
+
+
+    </form>
+  </div>
+<script src=".js"></script>
+</body>
+</html>
